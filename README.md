@@ -16,7 +16,7 @@ This speakemoji css package is created using [Grumpicon by Filament Group](http:
 
 2. Put these codes before `</body>`
 ```html
-<script src="source/gruntspeakemoji.loader.js"></script>
+<script src="speakemoji/gruntspeakemoji.loader.js"></script>
 <noscript><link href="speakemoji.fallback.css" rel="stylesheet"></noscript>
 ``` 
 
