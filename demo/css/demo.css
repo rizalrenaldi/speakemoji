@@ -1,0 +1,253 @@
+          body {
+                font-family: 'Varela Round', sans-serif;
+                background-color: #fffbe8;
+                color: #40424d;
+                font-size: 16px;
+            }
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #40424d;
+}
+            
+h1 {
+    margin-bottom: 15px;    
+}
+
+.wrapper {
+	width:70%;
+    margin: 0 auto;
+	position:relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+            
+.banner {
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+    height: 220px;
+    background-color: #f6ea72;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+            
+.banner:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(246, 234, 114, 0);
+	border-top-color: #f6ea72;
+	border-width: 30px;
+	margin-left: -30px;
+}
+            
+            .banner h1 {
+                font-size: 60px;
+                letter-spacing: 2px;
+            }
+
+
+.flex-item {
+	display:flex;
+  	width: 5%;
+	height:auto;
+	margin:1%;
+	min-width:128px;
+	position:relative;
+	overflow:hidden;
+/*    background: #ccc;*/
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+            
+            .flex-item p {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+                font-size: 12px;
+            }
+
+.flex-item .icon {
+	display:block;
+  	width: 100%;
+	height: auto;
+}
+
+@media (max-width:800px) {
+	.flex-item {
+		width: 30.33%;
+		margin:1.5%;
+	}
+}
+
+@media (max-width:560px) {
+	.flex-item {
+		width: 45%;
+		margin:2.5%;
+	}
+}
+
+@media (max-width:700px) {
+    .logo-small, .gh {
+        display: none!important;
+    }
+    
+    .dl-icon {
+        display: block;
+    }
+}
+
+@media (max-width:360px) {
+    
+    .wrapper {
+        width: 100%;
+    }
+    
+	.flex-item {
+		width: 100%;
+		margin:2.5% 0;
+	}
+}
+            
+.howto {
+    background-color: #ebf2f8;
+    padding: 5% 20%;
+    margin: 60px 0 0 0;
+}   
+            
+.howto p {
+    margin-top: 15px;
+    line-height: 24px;
+}            
+            
+/*
+			body {
+				background-image: linear-gradient(#eee 25%, transparent 25%, transparent), linear-gradient(#eee 25%, transparent 25%, transparent), linear-gradient(transparent 75%, #eee 75%), linear-gradient(transparent 75%, #eee 75%);
+				width: auto;
+				background-size: 10px 10px;
+			}
+*/
+
+.se, .size, .size li a {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+ol li {
+    margin-left: 20px;
+}
+
+hr {
+    margin: 40px 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: none;
+}
+
+.size {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 100%;
+    padding: 20px;
+    background-color: #fffbe8;
+}
+
+.logo-small {
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    color: #fffbe8;
+    font-size: 20px;
+}
+
+.gh {
+    position: fixed;
+    right: 10px;
+    top: 20px;
+    z-index: 100;
+}
+
+.gh a {
+      color: #fffbe8;  
+}
+
+.size.scroll-to-fixed-fixed {
+    background-color: #f7ea72;
+}
+
+.size.scroll-to-fixed-fixed .logo-small, .size.scroll-to-fixed-fixed .gh a {
+    color: #40424d;
+}
+
+.size li {
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+    margin: 10px 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.size li a {
+    text-decoration: none;
+    color: #cebc6a;
+}
+
+.size li a:hover {
+    color: #978646;
+}
+
+.speakemoji-class {
+    list-style: none;
+}
+
+.active {
+    color: #978646!important;
+}
+
+.exam-right-list li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.exam-right, .exam-left {
+    width: 49%;
+    display: inline-block;
+}
+
+.footer {
+    padding: 40px;
+    background-color: #f6ea72;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.license {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+}
