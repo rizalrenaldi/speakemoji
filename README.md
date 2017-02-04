@@ -2,6 +2,8 @@
 #### version 1.0
 Created by Rizal Renaldi / Hellosignal
 
+See preview: https://rizalrenaldi.github.io/speakemoji/
+
 ### About speakemoji
 
 I personally hand-crafted these 48 speakemojis and decided to make it free so you can use it on your project both personal or commercial. Let me know if you want raw svg for all speakemoji, by mention or DM me to [@rizalrenaldi](http://twitter.com/rizalrenaldi) on Twitter or [@hellosignal](http://instagram.com/hellosignal) on Instagram
