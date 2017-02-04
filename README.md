@@ -17,7 +17,7 @@ This speakemoji css package is created using [Grumpicon by Filament Group](http:
 2. Put these codes before `</body>`
 ```html
 <script src="speakemoji/gruntspeakemoji.loader.js"></script>
-<noscript><link href="speakemoji.fallback.css" rel="stylesheet"></noscript>
+<noscript><link href="speakemoji/speakemoji.fallback.css" rel="stylesheet"></noscript>
 ``` 
 
 3. Call the class name of speakemoji you want to use. Following this format `se` then `emoji-class-name` then `emoji-size`.
