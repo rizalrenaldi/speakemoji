@@ -11,9 +11,9 @@ $(document).ready(function() {
     $('.se').removeClass('se-s se-m');
     $('.se').addClass('se-l');
 });
-$('li a').click(function(e) {
+$('li.sizes a').click(function(e) {
     e.preventDefault();
-    $('a').removeClass('active');
+    $('.sizes a').removeClass('active');
     $(this).addClass('active');
 });
 $('.size').scrollToFixed();
