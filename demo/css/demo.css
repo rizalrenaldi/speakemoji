@@ -115,6 +115,10 @@ h1 {
     .dl-icon {
         display: block;
     }
+    
+    .banner h1 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width:360px) {
