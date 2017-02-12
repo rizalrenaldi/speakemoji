@@ -4,7 +4,7 @@ Created by Rizal Renaldi / Hellosignal
 
 See preview: https://rizalrenaldi.github.io/speakemoji/
 
-![speakemoji](https://rizalrenaldi.github.io/speakemoji/demo/img/speakemoji.jpg)
+![speakemoji](/demo/img/speakemoji.jpg)
 
 ### About speakemoji
 
